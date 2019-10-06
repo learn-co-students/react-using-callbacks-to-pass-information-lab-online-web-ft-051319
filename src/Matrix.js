@@ -24,7 +24,7 @@ export default class Matrix extends Component {
     this.setState( {selectedColor: sColor })
 
   }
-  getSelectedColor = () => { this.state.selectedColor}
+  getSelectedColor = () =>  (this.state.selectedColor)
 
 
   render() {
